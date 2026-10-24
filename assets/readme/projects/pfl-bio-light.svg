@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img">
+  <title>PFL.bio</title>
+  <rect width="960" height="220" fill="#F4F1EA"/>
+  <rect x="1" y="1" width="958" height="218" fill="#FFFCF7" stroke="#D5D0C6"/>
+  <path d="M28 42 V28 H42" fill="none" stroke="#0E5F93" stroke-width="1.5"/>
+  <text x="56" y="78" fill="#0E5F93" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Identidade digital · No ar</text>
+  <text x="56" y="132" fill="#14202B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="650">PFL.bio</text>
+  <text x="56" y="176" fill="#3E4C5C" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="20">pfl.bio</text>
+</svg>

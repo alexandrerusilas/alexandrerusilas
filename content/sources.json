@@ -1,0 +1,20 @@
+{
+  "checkedOn": "2026-10-24",
+  "notes": [
+    "GitHub profile confirms the name, Brasil, company Painel Mágico, blog pfl.bio/@arusilas, account created in 2016, and the public line about connecting technology, operations, and business.",
+    "painelmagico.com, pfl.bio, pfl.bio/@arusilas, and github.com/fixscope were reachable. FixScope had zero public repositories.",
+    "The public PFL.bio profile states Technology Leader at AppTicket and founder positioning. LinkedIn confirms the role and the authorized stack. AppTicket internal architecture, infrastructure, and incidents are intentionally absent.",
+    "LinkedIn also mentions a prior path at Coop and MongoDB. Coop appears only as one high-level sentence. MongoDB was left out of the stack to keep the authorized list.",
+    "Studio email contato@painelmagico.com is published on painelmagico.com. No personal email is published here.",
+    "The portfolio URL is the expected GitHub Pages address. It is not assumed live until Pages is enabled."
+  ],
+  "sources": [
+    "https://github.com/alexandrerusilas",
+    "https://github.com/alexandrerusilas/alexandrerusilas",
+    "https://www.linkedin.com/in/alexandrerusilas",
+    "https://pfl.bio/@arusilas",
+    "https://painelmagico.com",
+    "https://pfl.bio",
+    "https://github.com/fixscope"
+  ]
+}

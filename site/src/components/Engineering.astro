@@ -1,0 +1,72 @@
+---
+import copy from "../../../content/copy.json";
+---
+
+<section class="sheet" id="engenharia" aria-labelledby="engenharia-titulo">
+  <h2 id="engenharia-titulo">
+    <span data-pt>{copy.engineering.title.pt}</span>
+    <span data-en>{copy.engineering.title.en}</span>
+  </h2>
+  <p class="section-lede">
+    <span data-pt>{copy.engineering.lede.pt}</span>
+    <span data-en>{copy.engineering.lede.en}</span>
+  </p>
+  <div class="tablist process" role="tablist" id="process-tabs">
+    <span class="sr-only" data-pt>
+      {copy.engineering.stepsLabel.pt}
+    </span>
+    <span class="sr-only" data-en>
+      {copy.engineering.stepsLabel.en}
+    </span>
+    {copy.engineering.steps.map((step, index) => (
+      <button
+        class="tab"
+        type="button"
+        role="tab"
+        id={`step-${step.id}`}
+        aria-controls={`step-panel-${step.id}`}
+        aria-selected={index === 0 ? "true" : "false"}
+        tabindex={index === 0 ? 0 : -1}
+      >
+        <span data-pt>{step.pt}</span>
+        <span data-en>{step.en}</span>
+      </button>
+    ))}
+  </div>
+  {copy.engineering.steps.map((step, index) => (
+    <p
+      class="process-note"
+      role="tabpanel"
+      id={`step-panel-${step.id}`}
+      aria-labelledby={`step-${step.id}`}
+      hidden={index === 0 ? undefined : true}
+    >
+      <span data-pt>{step.body.pt}</span>
+      <span data-en>{step.body.en}</span>
+    </p>
+  ))}
+  <div class="stack-index">
+    <div class="wide">
+      <h3>
+        <span data-pt>{copy.engineering.stackTitle.pt}</span>
+        <span data-en>{copy.engineering.stackTitle.en}</span>
+      </h3>
+      <p>
+        <span data-pt>{copy.engineering.stackLede.pt}</span>
+        <span data-en>{copy.engineering.stackLede.en}</span>
+      </p>
+    </div>
+    {copy.engineering.stack.map((group) => (
+      <div>
+        <h3>
+          <span data-pt>{group.pt}</span>
+          <span data-en>{group.en}</span>
+        </h3>
+        <p>
+          <span data-pt>{group.items.map((item) => item.pt).join(", ")}</span>
+          <span data-en>{group.items.map((item) => item.en).join(", ")}</span>
+        </p>
+      </div>
+    ))}
+  </div>
+</section>

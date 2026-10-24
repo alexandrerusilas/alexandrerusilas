@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img">
+  <title>Alexandre Rusilas — engenharia, produto e boas ideias em construção</title>
+  <rect width="1280" height="520" fill="#0B1017"/>
+  <rect x="12" y="12" width="1256" height="496" fill="none" stroke="#2B3542"/>
+  <path d="M28 44 V28 H44" fill="none" stroke="#6EF2B0" stroke-width="1.5"/>
+  <path d="M1236 44 V28 H1252" fill="none" stroke="#6EF2B0" stroke-width="1.5"/>
+  <path d="M28 492 V476 H44" fill="none" stroke="#FFBC8A" stroke-width="1.5"/>
+  <path d="M1236 492 V476 H1252" fill="none" stroke="#7AC7FF" stroke-width="1.5"/>
+  <text x="64" y="176" fill="#F4F1EA" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="76" font-weight="650">Alexandre</text>
+  <text x="64" y="260" fill="#F4F1EA" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="76" font-weight="650">Rusilas</text>
+  <text x="64" y="308" fill="#6EF2B0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="20">@arusilas · Brasil</text>
+  <text x="64" y="364" fill="#97A6B7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="24">Engenharia, produto e boas ideias em construção.</text>
+  <text x="64" y="468" fill="#FFBC8A" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Construindo coisas interessantes.</text>
+  <path d="M924.0 294.4 L990.0 185.6 L1050.0 320.0 L1116.0 204.8 L1170.0 307.2" fill="none" stroke="#6EF2B0" stroke-width="1.5"/><circle cx="924.0" cy="294.4" r="7" fill="#0B1017" stroke="#6EF2B0" stroke-width="2"/><circle cx="990.0" cy="185.6" r="7" fill="#0B1017" stroke="#6EF2B0" stroke-width="2"/><circle cx="1050.0" cy="320.0" r="9" fill="#0B1017" stroke="#6EF2B0" stroke-width="2"/><circle cx="1116.0" cy="204.8" r="7" fill="#0B1017" stroke="#7AC7FF" stroke-width="2"/><circle cx="1170.0" cy="307.2" r="7" fill="#0B1017" stroke="#FFBC8A" stroke-width="2"/>
+</svg>

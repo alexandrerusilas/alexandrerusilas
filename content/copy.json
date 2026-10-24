@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "title": {
+      "pt": "Alexandre Rusilas — Engenharia, liderança e produtos digitais",
+      "en": "Alexandre Rusilas — Engineering, Leadership & Digital Products"
+    },
+    "description": {
+      "pt": "Alexandre Rusilas é Líder de Tecnologia, engenheiro de software e criador de produtos digitais. Engenharia, arquitetura, produto e criatividade conectados.",
+      "en": "Alexandre Rusilas is a technology leader, software engineer, and builder of digital products. Engineering, architecture, product, and creativity, connected."
+    }
+  },
+  "nav": [
+    { "id": "sobre", "pt": "Sobre", "en": "About" },
+    { "id": "engenharia", "pt": "Engenharia", "en": "Engineering" },
+    { "id": "projetos", "pt": "Projetos", "en": "Projects" },
+    { "id": "playground", "pt": "Playground", "en": "Playground" },
+    { "id": "contato", "pt": "Contato", "en": "Connect" }
+  ],
+  "hero": {
+    "sentence": {
+      "pt": "Engenharia, produto e boas ideias em construção.",
+      "en": "Building digital products, leading technology, connecting ideas to execution."
+    },
+    "primary": { "pt": "Vamos conversar", "en": "Let's talk" },
+    "secondary": { "pt": "Ver o que estou construindo", "en": "See what I'm building" },
+    "status": {
+      "pt": "Construindo coisas interessantes.",
+      "en": "Currently building interesting things."
+    },
+    "pinHint": {
+      "pt": "Um desenho só. Escolha um ponto.",
+      "en": "One drawing. Pick a point."
+    },
+    "pins": [
+      {
+        "id": "engineering",
+        "pt": "Engenharia",
+        "en": "Engineering",
+        "note": {
+          "pt": "Transformar um desafio em solução bem executada.",
+          "en": "Turn a hard problem into something well built."
+        }
+      },
+      {
+        "id": "architecture",
+        "pt": "Arquitetura",
+        "en": "Architecture",
+        "note": {
+          "pt": "Sistemas que continuam claros quando crescem.",
+          "en": "Systems that stay clear as they grow."
+        }
+      },
+      {
+        "id": "leadership",
+        "pt": "Liderança",
+        "en": "Leadership",
+        "note": {
+          "pt": "Pessoas, decisões e execução no mesmo plano.",
+          "en": "People, decisions, and execution on the same page."
+        }
+      },
+      {
+        "id": "product",
+        "pt": "Produto",
+        "en": "Product",
+        "note": {
+          "pt": "Tecnologia que resolve um problema real.",
+          "en": "Technology that solves a real problem."
+        }
+      },
+      {
+        "id": "creativity",
+        "pt": "Criação",
+        "en": "Creativity",
+        "note": {
+          "pt": "A ideia só conta quando vira experiência.",
+          "en": "An idea counts when it becomes an experience."
+        }
+      }
+    ]
+  },
+  "about": {
+    "title": { "pt": "Quem está do outro lado", "en": "Who is on the other side" },
+    "summary": {
+      "pt": "Conecto tecnologia, pessoas e negócio para transformar ideias em produtos digitais — da arquitetura à experiência de quem usa.",
+      "en": "I connect technology, people, and business to turn ideas into digital products — from the architecture to the experience of the people who use them."
+    },
+    "intro": {
+      "pt": "Olá, sou o Alexandre. Lidero a tecnologia na AppTicket, desenho arquiteturas e gosto de transformar uma ideia em produto que faça sentido para quem usa. Entre engenharia, produto e café, quase sempre tem alguma coisa em construção.",
+      "en": "Hi, I'm Alexandre. I lead technology at AppTicket, shape architectures, and like turning an idea into a product that makes sense for the people using it. Between engineering, product, and coffee, something is usually under construction."
+    },
+    "tabsLabel": { "pt": "Formas de atuar", "en": "Ways of working" },
+    "tabs": [
+      {
+        "id": "engineer",
+        "pt": "O engenheiro",
+        "en": "The engineer",
+        "body": {
+          "pt": "Gosto de ficar no problema até ele ficar nítido. A ferramenta vem depois. Arquitetura, para mim, é o que permite um sistema crescer sem perder o fio: limites claros, decisões que dá para explicar e código que outra pessoa consegue continuar.",
+          "en": "I like to stay with a problem until it is sharp. The tool comes after. Architecture, for me, is what lets a system grow without losing the thread: clear boundaries, decisions you can explain, and code someone else can continue."
+        }
+      },
+      {
+        "id": "leader",
+        "pt": "O líder",
+        "en": "The leader",
+        "body": {
+          "pt": "Liderar tecnologia é deixar o time decidir melhor. Eu conecto engenharia, operação e negócio, cuido de qualidade e segurança, e trato pressa como um dado, não como uma estratégia. Antes da AppTicket, passei anos na Coop, da análise de sistemas à liderança técnica.",
+          "en": "Leading technology means helping a team decide better. I connect engineering, operations, and business, look after quality and security, and treat urgency as data, not as a strategy. Before AppTicket, I spent years at Coop, from systems analysis to technical leadership."
+        }
+      },
+      {
+        "id": "builder",
+        "pt": "O construtor",
+        "en": "The builder",
+        "body": {
+          "pt": "A Painel Mágico é o estúdio onde eu tiro ideia do papel. O PFL.bio nasceu nesse ecossistema: uma página para reunir links e presença. O FixScope está em desenvolvimento, em código aberto, para ajudar times a investigar vulnerabilidades com contexto e cuidado.",
+          "en": "Painel Mágico is the studio where I get ideas out of notebooks. PFL.bio came out of that ecosystem: a page for links and presence. FixScope is in development, in the open, to help teams investigate vulnerabilities with context and care."
+        }
+      }
+    ]
+  },
+  "engineering": {
+    "title": { "pt": "Do problema à evolução", "en": "From problem to evolution" },
+    "lede": {
+      "pt": "Não é um ritual de slide. É a ordem em que eu costumo pensar quando alguma coisa precisa existir de verdade.",
+      "en": "Not a slide ritual. It is the order I usually think in when something actually has to exist."
+    },
+    "stepsLabel": { "pt": "Etapas do raciocínio", "en": "Steps in the reasoning" },
+    "steps": [
+      {
+        "id": "problem",
+        "pt": "Problema",
+        "en": "Problem",
+        "body": {
+          "pt": "O que está doendo de verdade, e para quem? Sem isso, o resto é decoração.",
+          "en": "What actually hurts, and for whom? Without that, the rest is decoration."
+        }
+      },
+      {
+        "id": "discovery",
+        "pt": "Descoberta",
+        "en": "Discovery",
+        "body": {
+          "pt": "Contexto, restrições e o que ainda não sabemos. Inclusive o que parece óbvio e não é.",
+          "en": "Context, constraints, and what we still do not know. Including what looks obvious and is not."
+        }
+      },
+      {
+        "id": "architecture",
+        "pt": "Arquitetura",
+        "en": "Architecture",
+        "body": {
+          "pt": "Uma forma que aguenta o próximo ano, não só a demonstração. Limites nítidos, acoplamento honesto.",
+          "en": "A shape that can hold the next year, not only the demo. Clear boundaries, honest coupling."
+        }
+      },
+      {
+        "id": "build",
+        "pt": "Construção",
+        "en": "Build",
+        "body": {
+          "pt": "Executar com qualidade proporcional ao risco. Atalho tem lugar. Atalho sem dono, não.",
+          "en": "Build with quality proportional to the risk. A shortcut has a place. A shortcut with no owner does not."
+        }
+      },
+      {
+        "id": "delivery",
+        "pt": "Entrega",
+        "en": "Delivery",
+        "body": {
+          "pt": "Colocar na mão de quem usa, com segurança e um caminho de volta se algo sair errado.",
+          "en": "Put it in someone's hands, safely, with a way back if something goes wrong."
+        }
+      },
+      {
+        "id": "evolution",
+        "pt": "Evolução",
+        "en": "Evolution",
+        "body": {
+          "pt": "Medir, aprender e decidir o próximo passo. Parar também é uma decisão de engenharia.",
+          "en": "Measure, learn, and choose the next step. Stopping is an engineering decision too."
+        }
+      }
+    ],
+    "stackTitle": { "pt": "O que eu uso de verdade", "en": "What I actually use" },
+    "stackLede": {
+      "pt": "Uma lista curta, do trabalho. Não é um catálogo de ferramentas que eu abri uma vez.",
+      "en": "A short list from the work. Not a catalog of tools I opened once."
+    },
+    "stack": [
+      {
+        "id": "backend",
+        "pt": "Backend e APIs",
+        "en": "Backend & APIs",
+        "items": [
+          { "pt": "PHP", "en": "PHP" },
+          { "pt": "Laravel", "en": "Laravel" },
+          { "pt": "Node.js", "en": "Node.js" },
+          { "pt": "APIs REST", "en": "REST APIs" }
+        ]
+      },
+      {
+        "id": "frontend",
+        "pt": "Frontend e mobile",
+        "en": "Frontend & mobile",
+        "items": [
+          { "pt": "TypeScript", "en": "TypeScript" },
+          { "pt": "JavaScript", "en": "JavaScript" },
+          { "pt": "Vue.js", "en": "Vue.js" },
+          { "pt": "Nuxt", "en": "Nuxt" },
+          { "pt": "React Native", "en": "React Native" },
+          { "pt": "Expo", "en": "Expo" }
+        ]
+      },
+      {
+        "id": "data",
+        "pt": "Dados",
+        "en": "Data",
+        "items": [
+          { "pt": "MySQL", "en": "MySQL" },
+          { "pt": "Oracle SQL", "en": "Oracle SQL" }
+        ]
+      },
+      {
+        "id": "cloud",
+        "pt": "Cloud e entrega",
+        "en": "Cloud & delivery",
+        "items": [
+          { "pt": "AWS", "en": "AWS" },
+          { "pt": "Docker", "en": "Docker" },
+          { "pt": "CI/CD", "en": "CI/CD" },
+          { "pt": "GitHub Actions", "en": "GitHub Actions" }
+        ]
+      },
+      {
+        "id": "practice",
+        "pt": "Prática",
+        "en": "Practice",
+        "items": [
+          { "pt": "Git", "en": "Git" },
+          { "pt": "Arquitetura de software", "en": "Software architecture" },
+          { "pt": "Segurança de aplicações", "en": "Application security" },
+          { "pt": "Automação", "en": "Automation" },
+          { "pt": "Desenvolvimento assistido por IA", "en": "AI-assisted development" }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": { "pt": "O que estou construindo", "en": "What I'm building" },
+    "lede": {
+      "pt": "Três iniciativas com endereço de verdade. O resto fica de fora até existir em público.",
+      "en": "Three initiatives with a real address. The rest stays out until it exists in public."
+    },
+    "filtersLabel": { "pt": "Filtrar iniciativas", "en": "Filter initiatives" },
+    "filters": [
+      { "id": "all", "pt": "Tudo", "en": "All" },
+      { "id": "products", "pt": "Produtos", "en": "Products" },
+      { "id": "open-source", "pt": "Código aberto", "en": "Open source" },
+      { "id": "experiments", "pt": "Experimentos", "en": "Experiments" }
+    ],
+    "empty": {
+      "pt": "Nenhum experimento público por enquanto. Quando um teste tiver forma, ele aparece aqui.",
+      "en": "No public experiments yet. When a test has a shape, it shows up here."
+    }
+  },
+  "playground": {
+    "title": { "pt": "Um terminal só meu", "en": "A terminal of my own" },
+    "lede": {
+      "pt": "Comandos locais, já escritos. Nada aqui roda no seu computador, e nada é enviado para lugar nenhum.",
+      "en": "Local commands, already written. Nothing here runs on your computer, and nothing is sent anywhere."
+    },
+    "inputLabel": { "pt": "Comando", "en": "Command" },
+    "prompt": { "pt": "Digite um comando ou escolha um abaixo.", "en": "Type a command or pick one below." },
+    "welcome": {
+      "pt": "Alexandre, na mesa.\nDigite help para ver os comandos.",
+      "en": "Alexandre, at the desk.\nType help to see the commands."
+    }
+  },
+  "terminal": {
+    "unknown": {
+      "pt": "Não conheço esse comando. Digite help.",
+      "en": "I don't know that command. Type help."
+    },
+    "commands": {
+      "help": {
+        "pt": "Comandos: help, about, projects, stack, coffee, contact, clear.\nHá mais um, se você for curioso.",
+        "en": "Commands: help, about, projects, stack, coffee, contact, clear.\nThere is one more, if you are curious."
+      },
+      "about": {
+        "pt": "Alexandre Rusilas. Líder de Tecnologia na AppTicket.\nEngenharia, arquitetura, produto e um estúdio chamado Painel Mágico.",
+        "en": "Alexandre Rusilas. Technology Leader at AppTicket.\nEngineering, architecture, product, and a studio called Painel Mágico."
+      },
+      "projects": {
+        "pt": "Painel Mágico — estúdio, no ar.\nPFL.bio — identidade digital, no ar.\nFixScope — código aberto, em desenvolvimento.",
+        "en": "Painel Mágico — studio, live.\nPFL.bio — digital identity, live.\nFixScope — open source, in development."
+      },
+      "stack": {
+        "pt": "PHP, Laravel, Node.js, TypeScript, Vue, Nuxt, React Native, MySQL, Oracle, AWS, Docker.\nE o hábito de desenhar a arquitetura antes de colecionar ferramenta.",
+        "en": "PHP, Laravel, Node.js, TypeScript, Vue, Nuxt, React Native, MySQL, Oracle, AWS, Docker.\nAnd the habit of drawing the architecture before collecting tools."
+      },
+      "coffee": {
+        "pt": "O compilador pede mais um. Sem café o código até sai, mas a arquitetura fica impaciente.\nA luminária da mesa acendeu.",
+        "en": "The compiler asked for another cup. Code still ships without coffee, but the architecture gets impatient.\nThe desk lamp is on."
+      },
+      "contact": {
+        "pt": "LinkedIn, PFL.bio/@arusilas, ou contato@painelmagico.com.\nIdeias interessantes são bem-vindas.",
+        "en": "LinkedIn, PFL.bio/@arusilas, or contato@painelmagico.com.\nInteresting ideas are welcome."
+      },
+      "magic": {
+        "pt": "O painel mágico abre para quem insiste um pouco.\nNão é um comando de sistema. É só um aceno.",
+        "en": "The magic panel opens for anyone who insists a little.\nNot a system command. Just a wave."
+      }
+    }
+  },
+  "connect": {
+    "title": {
+      "pt": "Coisas boas começam com uma conversa.",
+      "en": "Good things start with a conversation."
+    },
+    "lede": {
+      "pt": "Se você tem uma ideia, um sistema para evoluir ou só quer trocar contexto, eu leio.",
+      "en": "If you have an idea, a system to evolve, or just want to trade context, I read."
+    },
+    "cta": { "pt": "Tem uma ideia interessante? Vamos conversar.", "en": "Got an interesting idea? Let's talk." }
+  },
+  "footer": {
+    "line": {
+      "pt": "Feito com curiosidade, código e café.",
+      "en": "Made with curiosity, code, and coffee."
+    },
+    "lamp": {
+      "pt": "Modo café. Compilando com calma.",
+      "en": "Coffee mode. Compiling, unhurried."
+    },
+    "magic": {
+      "pt": "O painel mágico abre para quem insiste um pouco.",
+      "en": "The magic panel opens for anyone who insists a little."
+    }
+  },
+  "github": {
+    "title": { "pt": "GitHub", "en": "GitHub" },
+    "body": {
+      "pt": "No GitHub desde 2016. O que está público nesta conta é este perfil. A organização FixScope já existe e ainda não tem repositório publicado. Sem gráfico de vaidade: o que importa é o que está sendo construído.",
+      "en": "On GitHub since 2016. What is public on this account is this profile. The FixScope organization exists and has no published repository yet. No vanity graph: what matters is what is being built."
+    }
+  },
+  "beyond": {
+    "title": { "pt": "Além do código", "en": "Beyond the code" },
+    "lede": {
+      "pt": "Por trás dos commits, pouca coisa. O suficiente para o trabalho não ficar sem dono.",
+      "en": "Behind the commits, not much. Enough so the work still has a person attached."
+    },
+    "items": [
+      { "pt": "Café, de preferência enquanto a arquitetura ainda está no papel.", "en": "Coffee, preferably while the architecture is still on paper." },
+      { "pt": "Produtos digitais que uma pessoa real consiga usar.", "en": "Digital products a real person can actually use." },
+      { "pt": "Estratégia quando ela muda uma decisão, não quando ela enfeita.", "en": "Strategy when it changes a decision, not when it decorates one." },
+      { "pt": "Construir, experimentar, e saber parar.", "en": "Building, experimenting, and knowing when to stop." }
+    ]
+  },
+  "readme": {
+    "mapTitle": "Mapa",
+    "workTitle": "Como eu trabalho",
+    "dna": [
+      {
+        "pt": "Arquitetura",
+        "en": "Architecture",
+        "body": "Projetar sistemas confiáveis, sustentáveis e que continuem claros quando crescem."
+      },
+      {
+        "pt": "Engenharia",
+        "en": "Engineering",
+        "body": "Transformar desafios em soluções técnicas bem executadas."
+      },
+      {
+        "pt": "Liderança",
+        "en": "Leadership",
+        "body": "Conectar pessoas, decisões e execução."
+      },
+      {
+        "pt": "Produto",
+        "en": "Product",
+        "body": "Criar tecnologia que resolva problemas reais."
+      }
+    ],
+    "portfolioNote": "O portfolio interativo vive neste mesmo repositório e é publicado no GitHub Pages. O endereço passa a responder depois que o Pages é ativado em Settings."
+  },
+  "ui": {
+    "menu": { "pt": "Menu", "en": "Menu" },
+    "close": { "pt": "Fechar", "en": "Close" },
+    "home": { "pt": "Início", "en": "Home" },
+    "themeToLight": { "pt": "Claro", "en": "Light" },
+    "themeToDark": { "pt": "Escuro", "en": "Dark" },
+    "langToEn": { "pt": "Mudar para inglês", "en": "Switch to English" },
+    "langToPt": { "pt": "Mudar para português", "en": "Switch to Portuguese" },
+    "lamp": { "pt": "Modo café", "en": "Coffee mode" },
+    "skip": { "pt": "Ir para o conteúdo", "en": "Skip to content" },
+    "newTab": { "pt": "abre em nova aba", "en": "opens in a new tab" },
+    "selected": { "pt": "selecionado", "en": "selected" }
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexandrerusilas.github.io/alexandrerusilas/sitemap-index.xml

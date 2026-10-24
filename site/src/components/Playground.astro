@@ -1,0 +1,43 @@
+---
+import copy from "../../../content/copy.json";
+
+const commands = Object.keys(copy.terminal.commands).filter((command) => command !== "magic");
+---
+
+<section class="sheet" id="playground" aria-labelledby="playground-titulo">
+  <div class="playground-layout">
+    <div>
+      <h2 id="playground-titulo">
+        <span data-pt>{copy.playground.title.pt}</span>
+        <span data-en>{copy.playground.title.en}</span>
+      </h2>
+      <p class="section-lede">
+        <span data-pt>{copy.playground.lede.pt}</span>
+        <span data-en>{copy.playground.lede.en}</span>
+      </p>
+    </div>
+    <div class="terminal">
+      <div class="term-log" id="term-log" role="log" aria-live="polite" tabindex="0">
+        <p>
+          <span data-pt>{copy.playground.welcome.pt}</span>
+          <span data-en>{copy.playground.welcome.en}</span>
+        </p>
+      </div>
+      <form class="term-form" id="term-form">
+        <label class="sr-only" for="term-input">
+          <span data-pt>{copy.playground.inputLabel.pt}</span>
+          <span data-en>{copy.playground.inputLabel.en}</span>
+        </label>
+        <span aria-hidden="true">&gt;</span>
+        <input id="term-input" name="command" autocomplete="off" spellcheck="false" />
+      </form>
+      <div class="chips">
+        {commands.map((command) => (
+          <button type="button" data-command={command}>
+            {command}
+          </button>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

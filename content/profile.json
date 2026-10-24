@@ -1,0 +1,19 @@
+{
+  "name": "Alexandre Rusilas",
+  "given": "Alexandre",
+  "family": "Rusilas",
+  "handle": "arusilas",
+  "github": "alexandrerusilas",
+  "location": "Brasil",
+  "company": "AppTicket",
+  "studio": "Painel Mágico",
+  "githubSince": 2016,
+  "role": {
+    "pt": "Líder de Tecnologia na AppTicket",
+    "en": "Technology Leader at AppTicket"
+  },
+  "positioning": {
+    "pt": "Technology Leader, Software Architect, Product Builder & Founder",
+    "en": "Technology Leader, Software Architect, Product Builder & Founder"
+  }
+}

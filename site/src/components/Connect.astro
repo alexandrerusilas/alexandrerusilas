@@ -1,0 +1,45 @@
+---
+import copy from "../../../content/copy.json";
+import links from "../../../content/links.json";
+---
+
+<section class="sheet close" id="contato" aria-labelledby="contato-titulo">
+  <h2 id="contato-titulo">
+    <span data-pt>{copy.connect.title.pt}</span>
+    <span data-en>{copy.connect.title.en}</span>
+  </h2>
+  <p class="section-lede">
+    <span data-pt>{copy.connect.lede.pt}</span>
+    <span data-en>{copy.connect.lede.en}</span>
+  </p>
+  <p class="summary">
+    <span data-pt>{copy.connect.cta.pt}</span>
+    <span data-en>{copy.connect.cta.en}</span>
+  </p>
+  <div class="actions">
+    <a class="plaque" href={links.linkedin} target="_blank" rel="noopener noreferrer">
+      LinkedIn
+      <span class="sr-only">
+        (<span data-pt>{copy.ui.newTab.pt}</span>
+        <span data-en>{copy.ui.newTab.en}</span>)
+      </span>
+    </a>
+    <a class="quiet" href={links.pfl} target="_blank" rel="noopener noreferrer">
+      PFL.bio
+      <span class="sr-only">
+        (<span data-pt>{copy.ui.newTab.pt}</span>
+        <span data-en>{copy.ui.newTab.en}</span>)
+      </span>
+    </a>
+    <a class="quiet" href={links.github} target="_blank" rel="noopener noreferrer">
+      GitHub
+      <span class="sr-only">
+        (<span data-pt>{copy.ui.newTab.pt}</span>
+        <span data-en>{copy.ui.newTab.en}</span>)
+      </span>
+    </a>
+    <a class="quiet" href={`mailto:${links.studioEmail}`}>
+      {links.studioEmail}
+    </a>
+  </div>
+</section>

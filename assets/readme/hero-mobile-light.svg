@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="820" viewBox="0 0 640 820" role="img">
+  <title>Alexandre Rusilas — engenharia, produto e boas ideias em construção</title>
+  <rect width="640" height="820" fill="#F4F1EA"/>
+  <rect x="12" y="12" width="616" height="796" fill="none" stroke="#D5D0C6"/>
+  <path d="M28 44 V28 H44" fill="none" stroke="#0C6E4A" stroke-width="1.5"/>
+  <path d="M596 44 V28 H612" fill="none" stroke="#0C6E4A" stroke-width="1.5"/>
+  <path d="M28 792 V776 H44" fill="none" stroke="#9A4E22" stroke-width="1.5"/>
+  <path d="M596 792 V776 H612" fill="none" stroke="#0E5F93" stroke-width="1.5"/>
+  <text x="36" y="118" fill="#14202B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="650">Alexandre</text>
+  <text x="36" y="184" fill="#14202B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="650">Rusilas</text>
+  <text x="36" y="236" fill="#0C6E4A" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22">@arusilas · Brasil</text>
+  <text x="36" y="294" fill="#3E4C5C" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="26">Engenharia, produto e boas</text>
+  <text x="36" y="330" fill="#3E4C5C" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="26">ideias em construção.</text>
+  <text x="36" y="394" fill="#9A4E22" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="20">Construindo coisas interessantes.</text>
+  <path d="M91.5 644.1 L211.2 533.3 L320.0 670.2 L439.7 552.8 L537.6 657.2" fill="none" stroke="#0C6E4A" stroke-width="1.5"/><circle cx="91.5" cy="644.1" r="7" fill="#F4F1EA" stroke="#0C6E4A" stroke-width="2"/><circle cx="211.2" cy="533.3" r="7" fill="#F4F1EA" stroke="#0C6E4A" stroke-width="2"/><circle cx="320.0" cy="670.2" r="9" fill="#F4F1EA" stroke="#0C6E4A" stroke-width="2"/><circle cx="439.7" cy="552.8" r="7" fill="#F4F1EA" stroke="#0E5F93" stroke-width="2"/><circle cx="537.6" cy="657.2" r="7" fill="#F4F1EA" stroke="#9A4E22" stroke-width="2"/>
+</svg>

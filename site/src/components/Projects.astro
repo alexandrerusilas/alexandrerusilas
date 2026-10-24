@@ -1,0 +1,75 @@
+---
+import copy from "../../../content/copy.json";
+import projects from "../../../content/projects.json";
+---
+
+<section class="sheet" id="projetos" aria-labelledby="projetos-titulo">
+  <h2 id="projetos-titulo">
+    <span data-pt>{copy.projects.title.pt}</span>
+    <span data-en>{copy.projects.title.en}</span>
+  </h2>
+  <p class="section-lede">
+    <span data-pt>{copy.projects.lede.pt}</span>
+    <span data-en>{copy.projects.lede.en}</span>
+  </p>
+  <div class="filters" role="group">
+    <span class="sr-only" data-pt>
+      {copy.projects.filtersLabel.pt}
+    </span>
+    <span class="sr-only" data-en>
+      {copy.projects.filtersLabel.en}
+    </span>
+    {copy.projects.filters.map((filter) => (
+      <button
+        class="filter"
+        type="button"
+        data-filter-btn={filter.id}
+        aria-pressed={filter.id === "all" ? "true" : "false"}
+      >
+        <span data-pt>{filter.pt}</span>
+        <span data-en>{filter.en}</span>
+      </button>
+    ))}
+  </div>
+  <div class="gallery">
+    {projects.map((project) => (
+      <article
+        class:list={["project", project.id === "painel-magico" && "project-lead"]}
+        data-filter={project.filter}
+        data-id={project.id}
+      >
+        <h3>{project.name}</h3>
+        <p>
+          <span data-pt>{project.summary.pt}</span>
+          <span data-en>{project.summary.en}</span>
+        </p>
+        <p class="note">
+          <span data-pt>
+            {project.category.pt} · {project.status.pt}
+            {project.note ? `. ${project.note.pt}` : ""}
+          </span>
+          <span data-en>
+            {project.category.en} · {project.status.en}
+            {project.note ? `. ${project.note.en}` : ""}
+          </span>
+        </p>
+        <div class="project-links">
+          {project.links.map((link) => (
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              <span data-pt>{link.label.pt}</span>
+              <span data-en>{link.label.en}</span>
+              <span class="sr-only">
+                (<span data-pt>{copy.ui.newTab.pt}</span>
+                <span data-en>{copy.ui.newTab.en}</span>)
+              </span>
+            </a>
+          ))}
+        </div>
+      </article>
+    ))}
+  </div>
+  <p class="empty">
+    <span data-pt>{copy.projects.empty.pt}</span>
+    <span data-en>{copy.projects.empty.en}</span>
+  </p>
+</section>

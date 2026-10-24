@@ -1,0 +1,60 @@
+---
+import copy from "../../../content/copy.json";
+---
+
+<header class="rail">
+  <a class="brand" id="brand" href="#topo">
+    <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M6 26 L16 6 L26 26" fill="none" stroke="currentColor" stroke-width="2"></path>
+      <path d="M10.5 18.5 H21.5" stroke="#FFBC8A" stroke-width="2"></path>
+    </svg>
+    <span class="sr-only">
+      <span data-pt>{copy.ui.home.pt}</span>
+      <span data-en>{copy.ui.home.en}</span>
+    </span>
+    <span aria-hidden="true">AR</span>
+  </a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" id="menu-btn">
+    <span data-pt>{copy.ui.menu.pt}</span>
+    <span data-en>{copy.ui.menu.en}</span>
+  </button>
+  <nav id="menu" aria-label="Seções">
+    {copy.nav.map((item) => (
+      <a href={`#${item.id}`}>
+        <span data-pt>{item.pt}</span>
+        <span data-en>{item.en}</span>
+      </a>
+    ))}
+  </nav>
+  <div class="instruments">
+    <button class="instrument" id="lamp" type="button" aria-pressed="false">
+      <span class="sr-only">
+        <span data-pt>{copy.ui.lamp.pt}</span>
+        <span data-en>{copy.ui.lamp.en}</span>
+      </span>
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+        <path
+          d="M9 2.5 V5 M4 11.5 H14 L12.2 8.2 A4.2 4.2 0 0 0 5.8 8.2 Z M7 14.5 H11"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        ></path>
+      </svg>
+    </button>
+    <button class="instrument" id="theme" type="button">
+      <span class="theme-to-light">
+        <span data-pt>{copy.ui.themeToLight.pt}</span>
+        <span data-en>{copy.ui.themeToLight.en}</span>
+      </span>
+      <span class="theme-to-dark">
+        <span data-pt>{copy.ui.themeToDark.pt}</span>
+        <span data-en>{copy.ui.themeToDark.en}</span>
+      </span>
+    </button>
+    <button class="instrument" id="lang" type="button">
+      <span class="lang-to-en">EN</span>
+      <span class="lang-to-pt">PT</span>
+    </button>
+  </div>
+</header>

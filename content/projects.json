@@ -1,0 +1,88 @@
+[
+  {
+    "id": "painel-magico",
+    "name": "Painel Mágico",
+    "filter": "products",
+    "state": "live",
+    "url": "https://painelmagico.com",
+    "host": "painelmagico.com",
+    "category": {
+      "pt": "Estúdio digital",
+      "en": "Digital studio"
+    },
+    "status": {
+      "pt": "No ar",
+      "en": "Live"
+    },
+    "summary": {
+      "pt": "Estúdio independente para transformar ideias em produtos digitais úteis, simples de usar e preparados para crescer.",
+      "en": "An independent studio for turning ideas into useful digital products that stay simple to use and ready to grow."
+    },
+    "links": [
+      {
+        "label": { "pt": "Abrir o estúdio", "en": "Open the studio" },
+        "url": "https://painelmagico.com"
+      }
+    ]
+  },
+  {
+    "id": "pfl-bio",
+    "name": "PFL.bio",
+    "filter": "products",
+    "state": "live",
+    "url": "https://pfl.bio",
+    "host": "pfl.bio",
+    "category": {
+      "pt": "Identidade digital",
+      "en": "Digital identity"
+    },
+    "status": {
+      "pt": "No ar",
+      "en": "Live"
+    },
+    "summary": {
+      "pt": "Produto do ecossistema Painel Mágico: uma página para reunir links, contato e presença online.",
+      "en": "A Painel Mágico product: one page for links, contact, and an online presence."
+    },
+    "links": [
+      {
+        "label": { "pt": "Conhecer o produto", "en": "See the product" },
+        "url": "https://pfl.bio"
+      },
+      {
+        "label": { "pt": "Perfil @arusilas", "en": "Profile @arusilas" },
+        "url": "https://pfl.bio/@arusilas"
+      }
+    ]
+  },
+  {
+    "id": "fixscope",
+    "name": "FixScope",
+    "filter": "open-source",
+    "state": "building",
+    "url": "https://github.com/fixscope",
+    "host": "github.com/fixscope",
+    "category": {
+      "pt": "Código aberto",
+      "en": "Open source"
+    },
+    "status": {
+      "pt": "Em desenvolvimento",
+      "en": "In development"
+    },
+    "summary": {
+      "pt": "Skill de IA para investigar vulnerabilidades com contexto, avaliar a exposição real e planejar remediações sem sacrificar a estabilidade. Ainda sem lançamento público.",
+      "en": "An AI skill for investigating vulnerabilities in context, judging real exposure, and planning remediations without sacrificing stability. No public release yet."
+    },
+    "note": {
+      "pt": "A organização no GitHub existe. Não há repositório público publicado.",
+      "en": "The GitHub organization exists. No public repository has been published."
+    },
+    "links": [
+      {
+        "label": { "pt": "Ver a organização", "en": "View the organization" },
+        "url": "https://github.com/fixscope"
+      }
+    ]
+  }
+]
