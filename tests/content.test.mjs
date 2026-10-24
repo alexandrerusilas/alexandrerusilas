@@ -11,7 +11,7 @@ test("conteúdo público obrigatório carrega", () => {
   assert.equal(projects.map((project) => project.id).join(","), "painel-magico,pfl-bio,fixscope");
   assert.equal(projects.find((project) => project.id === "fixscope")?.state, "building");
   assert.ok(links.studio.startsWith("https://painelmagico.com"));
-  assert.ok(links.portfolio.includes("alexandrerusilas.github.io"));
+  assert.equal(links.portfolio, undefined);
 });
 
 test("o terminal não executa entrada como código", () => {

@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-delegated: Astro + TypeScript + modern CSS + native JavaScript for the portfolio, GitHub Flavored Markdown and authored SVGs for the profile README, GitHub Actions for CI and GitHub Pages. The brief named this stack and asked for technical decisions to be made without further interruption.
+GitHub Flavored Markdown and authored SVGs. The public profile at github.com/alexandrerusilas renders only README.md from this repository. There is no separate website.
 
 ## Users
 
@@ -18,21 +18,19 @@ Secondary audience, also inferred: other engineers and product people reading fo
 
 ## Product Purpose
 
-A public personal-brand surface in two linked experiences. The GitHub profile README is the primary entrance and must stand alone. The portfolio site, published from the same repository via GitHub Pages, is the immersive extension. Success means a visitor can tell that Alexandre connects engineering, architecture, product, and execution, can see the real initiatives he is building, and can leave toward a verified conversation channel.
+A public personal-brand surface made of one file: the GitHub profile README. Success means a visitor on github.com/alexandrerusilas can tell that Alexandre connects engineering, architecture, product, and execution, can see the real initiatives he is building, and can leave toward a verified conversation channel.
 
 ## Positioning
 
-Technology Leader, Software Architect, Product Builder and Founder. Not presented only as a developer, and not titled CTO. The mechanism a generic profile cannot copy is the pairing of a designed GitHub README with a same-repo interactive portfolio, both fed from one content source, showing how he thinks and what he is actually shipping.
+Technology Leader, Software Architect, Product Builder and Founder. Not presented only as a developer, and not titled CTO. The profile is a designed README, fed from one content source, showing how he thinks and what he is actually shipping.
 
 ## Operating Context
 
-Visitors arrive on github.com/alexandrerusilas, where README.md renders with GitHub's Markdown limits, and may continue to the portfolio. Alexandre maintains the public facts in structured content files. The repository is public and visible to the market. Language default is Brazilian Portuguese, with English as a second language. He works from Brazil.
+Visitors arrive on github.com/alexandrerusilas, where README.md renders with GitHub's Markdown limits. Alexandre maintains the public facts in structured content files. The repository is public and visible to the market. Language default is Brazilian Portuguese, with English in a collapsed block. He works from Brazil.
 
 ## Capabilities and Constraints
 
-Two experiences: profile README and one-page portfolio (home, about, engineering, projects, playground, connect).
-
-Portfolio interactions confirmed by the brief: anchor navigation, mobile menu, keyboard support, theme (dark and light), optional PT/EN toggle, project filters, about dimensions, an engineering process that reveals each step, and an optional local mini-terminal with fixed commands only.
+One experience: the profile README. GitHub renders it. Links, headings, and light/dark SVG banners are the available interaction. The left column of the profile (photo, bio, company, website) is account settings, not this repository.
 
 Content that may be published, verified during discovery:
 

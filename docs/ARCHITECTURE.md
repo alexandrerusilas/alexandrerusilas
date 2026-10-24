@@ -1,12 +1,12 @@
 # Arquitetura
 
-O repositório é a superfície pública de Alexandre Rusilas. Ele publica duas experiências a partir da mesma fonte de conteúdo.
+O repositório existe para a página https://github.com/alexandrerusilas. Essa página mostra o `README.md` da raiz quando o repositório é público e tem o mesmo nome do usuário. A documentação do GitHub chama isso de profile README.
 
-## README e portfolio
+Não há outro site. GitHub Pages não faz parte do perfil.
 
-O `README.md` é a entrada principal, renderizado pelo GitHub no perfil. Ele precisa fazer sentido sozinho. Não há JavaScript, CSS global nem iframe.
+## Como o perfil é montado
 
-O portfolio em `site/` é a extensão interativa, gerada com Astro e publicada no GitHub Pages em `https://alexandrerusilas.github.io/alexandrerusilas/`. O `base` do Astro é `/alexandrerusilas`.
+O `README.md` é gerado. Ele precisa fazer sentido sozinho, dentro do Markdown e do HTML que o GitHub renderiza. Não há JavaScript, CSS global nem iframe.
 
 ## Diretórios
 
@@ -14,21 +14,18 @@ O portfolio em `site/` é a extensão interativa, gerada com Astro e publicada n
 - `templates/README.template.md` — ordem das seções do README.
 - `scripts/generate-readme.mjs` — valida o conteúdo e gera o README e os SVGs.
 - `assets/readme/` — imagens usadas pelo README. São geradas; não edite à mão.
-- `assets/social/og.svg` — origem da imagem de compartilhamento.
-- `site/` — portfolio Astro.
 - `docs/` — como manter o projeto.
-- `.github/workflows/` — CI e publicação.
+- `.github/workflows/ci.yml` — confere conteúdo e README.
 
 ## Decisões
 
-- O README e o site leem os mesmos JSON. Texto novo entra em `content/`, não espalhado no HTML.
-- O terminal do playground responde só a comandos pré-escritos em `content/terminal.mjs`. Não há `eval`, backend nem coleta de input.
+- Texto novo entra em `content/`, depois o gerador reescreve o README.
 - Estatísticas do GitHub não são buscadas. A conta pública não justifica um gráfico, e um gerador externo quebraria o README quando a API falhasse.
 - Ícones de marca de terceiros não são usados. Os desenhos são originais.
-- O idioma padrão é português. O inglês do site está no HTML e aparece com `data-lang="en"`, sem serviço de tradução.
+- O idioma padrão é português. O inglês fica num bloco recolhível.
 
 ## Restrições do GitHub
 
 O README aceita Markdown e um subconjunto de HTML. SVG animado e fonte remota não são confiáveis, então os banners usam SVG estático com fonte de sistema e uma versão mais alta para telas estreitas, via `<picture>`. Se o tema escuro não for respeitado, a imagem clara continua legível.
 
-Links do portfolio apontam para o endereço esperado do Pages. Esse endereço só responde depois da ativação descrita em `docs/DEPLOYMENT.md`.
+A bio, a foto, a empresa e o link da coluna esquerda do perfil não vêm deste arquivo. Eles ficam em https://github.com/settings/profile.

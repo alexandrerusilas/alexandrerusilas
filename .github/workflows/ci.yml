@@ -23,8 +23,6 @@ jobs:
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: site/package-lock.json
 
       - name: Validate content
         run: node scripts/validate.mjs
@@ -35,26 +33,9 @@ jobs:
       - name: Check generated README
         run: node scripts/generate-readme.mjs --check
 
-      - name: Install site dependencies
-        working-directory: site
-        run: npm ci
-
-      - name: Typecheck
-        working-directory: site
-        run: npm run check
-
-      - name: Check formatting
-        working-directory: site
-        run: npx prettier --check .
-
-      - name: Build
-        working-directory: site
-        run: npm run build
-
-      - name: Check Pages base path
+      - name: Check the profile README stands alone
         run: |
-          test -f site/dist/index.html
-          test -f site/dist/favicon.svg
-          test -f site/dist/og-image.png
-          grep -q "/alexandrerusilas/" site/dist/index.html
-          grep -q 'lang="pt-BR"' site/dist/index.html
+          test -f README.md
+          test -f assets/readme/hero-dark.svg
+          test -f assets/readme/hero-light.svg
+          ! grep -q "github.io" README.md

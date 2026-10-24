@@ -9,9 +9,8 @@ Edite os JSON em `content/`. Depois rode `node scripts/generate-readme.mjs`. Nã
 | `content/profile.json` | Nome, handles, empresa, ano no GitHub |
 | `content/links.json` | URLs e o e-mail público do estúdio |
 | `content/projects.json` | Iniciativas publicáveis |
-| `content/copy.json` | Textos do site e do README, nos dois idiomas |
+| `content/copy.json` | Textos do README, nos dois idiomas |
 | `content/sources.json` | Data e notas da última checagem |
-| `content/terminal.mjs` | Respostas locais do playground |
 
 Todo texto visível em português tem par em inglês (`pt` e `en`). O validador recusa campo pela metade.
 
@@ -39,7 +38,7 @@ node scripts/generate-readme.mjs --check
 
 ## Tradução
 
-Não use tradução automática em tempo real. Escreva o inglês no JSON. O site mostra os dois no HTML e esconde um com `data-lang`. O README é em português, com um bloco "In English".
+Não use tradução automática. Escreva o inglês no JSON. O README publicado é em português, com um bloco "In English".
 
 ## Fontes conferidas em 2026-10-24
 

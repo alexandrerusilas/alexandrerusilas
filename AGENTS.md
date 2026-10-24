@@ -1,6 +1,6 @@
 # Agentes
 
-Este repositório é o perfil público de Alexandre Rusilas: um README de GitHub e um portfolio Astro no mesmo projeto.
+Este repositório personaliza o perfil público https://github.com/alexandrerusilas. O GitHub mostra apenas o `README.md` da raiz. Não há site separado.
 
 ## Contexto
 
@@ -12,17 +12,15 @@ O FixScope está em desenvolvimento. A organização https://github.com/fixscope
 
 - Texto e fatos ficam em `content/`.
 - O README é gerado por `node scripts/generate-readme.mjs`. Não edite `README.md` ou `assets/readme/` sem regenerar.
-- O site está em `site/` e usa `base: /alexandrerusilas`.
-- Comportamento do portfolio fica em `site/src/scripts/main.ts`.
-- O terminal importa `content/terminal.mjs`. Comandos novos precisam ser locais, sem `eval` e sem rede.
+- O perfil não executa JavaScript nem CSS próprio. A composição visual fica em SVG estático, com versão clara, escura e estreita.
 
 ## Interface
 
-A página é uma mesa, não um dashboard. Fundo `#0B1017`, folha `#151D28`, tinta `#F4F1EA`, menta, azul e pêssego como na `docs/DESIGN_SYSTEM.md`. Há tema claro equivalente.
+O README é uma mesa, não um dashboard. Fundo `#0B1017`, folha `#151D28`, tinta `#F4F1EA`, menta, azul e pêssego. Há versão clara equivalente nos SVGs.
 
-Não adicione cartões iguais, sobrancelha acima de título, parede de badges, glassmorphism, neon ou gráfico de vaidade.
+Não adicione cartões iguais, sobrancelha acima de título, parede de badges, glassmorphism, neon ou gráfico de vaidade. Não crie um site nem publique no GitHub Pages.
 
-Respeite `prefers-reduced-motion`. Mantenha foco visível e os dois idiomas. Português é o padrão.
+Português é o padrão. O inglês fica num bloco `<details>` do README.
 
 ## Segurança
 
@@ -34,11 +32,10 @@ Não adicione token, analytics, segredo ou script de terceiro. Não descreva sis
 node scripts/validate.mjs
 node --test tests/*.test.mjs
 node scripts/generate-readme.mjs
-cd site && npm ci && npm run check && npm run build
 ```
 
 ## Qualidade
 
-Antes de encerrar uma mudança visível: gere o README se o conteúdo mudou, rode a validação, os testes e o build, e olhe o site em 360, 768 e 1440. Não faça push sem pedido explícito.
+Antes de encerrar uma mudança visível: gere o README se o conteúdo mudou e rode a validação e os testes. O perfil público só muda depois que o `README.md` entra na branch `main`. Não faça push sem pedido explícito.
 
 Workflows em `.github/workflows/` usam SHA fixo das actions. Não troque por uma tag móvel e não aumente permissão sem necessidade.

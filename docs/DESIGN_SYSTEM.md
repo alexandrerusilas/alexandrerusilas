@@ -1,57 +1,11 @@
 # Design system
 
-A página é uma mesa noturna vista de cima: fundo de madeira escura, folhas de papel, três lápis e marcas de registro nos cantos. O dia é a mesma mesa com luz natural. Não é um console, um dashboard nem um currículo.
+O perfil do GitHub é o README. A composição visual cabe nos SVGs, porque a página não aceita CSS próprio.
 
-## Tokens
+A peça é uma mesa noturna: fundo `#0B1017`, folha `#151D28`, tinta `#F4F1EA`. Três cores de desenho: menta `#6EF2B0`, azul `#7AC7FF` e pêssego `#FFBC8A`. O tema claro usa fundo `#F4F1EA`, tinta `#14202B` e versões escuras das mesmas três cores, para o texto continuar legível.
 
-Definidos em `site/src/styles/global.css`.
+Os banners usam a fonte do sistema. O GitHub não carrega Space Grotesk nem Inter dentro do README.
 
-| Token | Noite | Dia | Uso |
-| --- | --- | --- | --- |
-| `--bg` | `#0B1017` | `#F4F1EA` | Fundo |
-| `--surface` | `#151D28` | `#FFFCF7` | Folhas |
-| `--fg` | `#F4F1EA` | `#14202B` | Texto |
-| `--muted` | `#97A6B7` | `#3E4C5C` | Texto de apoio |
-| `--primary` | `#6EF2B0` | `#0C6E4A` | Estrutura |
-| `--secondary` | `#7AC7FF` | `#0E5F93` | Links |
-| `--warm` | `#FFBC8A` | `#9A4E22` | Ação principal e luminária |
-| `--border` | `#2B3542` | `#D5D0C6` | Fios de 1px |
-| `--shadow` | deslocada, suave | deslocada, suave | Folha sobre a mesa |
+Cada SVG tem marca de registro nos cantos e, no hero, cinco pontos ligados. Não há parede de badges, gráfico de contribuições nem ícone de marca de terceiro.
 
-O verde claro da noite não é texto no tema claro. Lá o lápis verde escurece para manter contraste.
-
-## Tipo
-
-- Space Grotesk: nome e títulos. Teto de `6rem`.
-- Inter: texto e interface. Medida de leitura até `68ch`. A frase do hero fica em `42ch`.
-- JetBrains Mono: somente o terminal.
-
-As fontes são empacotadas pelo build, com fallback de sistema. O README não carrega essas fontes; o SVG usa a pilha do sistema.
-
-## Componentes
-
-- Trilho: monograma, seções, luminária, tema e idioma.
-- Placa: a única ação preenchida, cor quente.
-- Pino: uma prática da mesa, sempre em papel claro. Seleção troca uma única frase.
-- Folhas de projeto e o terminal usam `--surface`, não o papel dos pinos. Categoria e estado ficam na nota, abaixo do texto.
-- Fios: arcos entre os pinos. No ponteiro fino eles cedem um pouco. Somem abaixo de 540px, quando os cinco rótulos não cabem numa linha. O menu entra abaixo de 720px.
-- Abas: sobre e processo. Teclado com setas, Home e End.
-- Folha de projeto: a do estúdio ocupa mais espaço que as outras.
-- Terminal: folha opcional, com atalhos clicáveis.
-- Marcas de canto: registro de desenho, sem texto.
-
-## Movimento
-
-Durações: 160ms para controle, 280ms reservado. Curva `cubic-bezier(0.22, 1, 0.36, 1)`.
-
-O movimento autoral é o fio da mesa. Hover de placa e pino desloca 2px. Não há animação infinita.
-
-Com `prefers-reduced-motion: reduce`, a rolagem é instantânea, os fios não seguem o ponteiro e as transições somem. Todo o conteúdo continua acessível.
-
-## Modo café
-
-A luminária aquece o fundo. É um detalhe editorial, não um status de infraestrutura. A preferência fica no `localStorage`.
-
-## Acessibilidade
-
-Alvo WCAG 2.2 AA. Foco visível, alvo de 44px nos controles, nomes nos links externos, painéis com `hidden`, e um link de pular conteúdo. O idioma do documento muda com o botão EN/PT.
+Há quatro arquivos de hero: claro e escuro, em 1280×520 e em 640×820. O README escolhe com `<picture>` e `prefers-color-scheme`.

@@ -1,6 +1,6 @@
 ---
 name: Alexandre Rusilas
-description: A night desk for engineering, product, and the work in progress.
+description: Visual language for the GitHub profile README. The profile page is README.md only.
 colors:
   night-walnut: "#0B1017"
   night-sheet: "#151D28"
@@ -92,7 +92,7 @@ components:
 
 **Creative North Star: "The night desk"**
 
-The page is one desk seen from above. Night walnut is the table. Sheets sit on it. Three pencils do the drawing: mint for structure, sky for links, peach for the human action and the lamp. The visitor reads a name, a sentence, and one row of practices before turning the next sheet.
+The GitHub profile is the README. GitHub does not apply this file as a stylesheet. The SVGs in the README are the desk: night walnut, a name, a sentence, and five linked points. There is no separate website.
 
 The same desk exists in daylight. Colors darken where night mint, sky, and peach would fail as text on paper. Pins stay paper in both themes, so the drawing on the front lip does not disappear into the table.
 

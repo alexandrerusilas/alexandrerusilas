@@ -33,7 +33,7 @@ export function loadContent() {
   requireText(profile.role, "profile.role", errors);
   if (!Number.isInteger(profile.githubSince)) errors.push("profile.githubSince precisa ser um ano");
 
-  const requiredLinks = ["linkedin", "github", "pfl", "pflProduct", "studio", "studioEmail", "fixscope", "portfolio"];
+  const requiredLinks = ["linkedin", "github", "pfl", "pflProduct", "studio", "studioEmail", "fixscope"];
   for (const key of requiredLinks) {
     const value = links[key];
     if (key === "studioEmail") {

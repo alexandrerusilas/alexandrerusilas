@@ -7,9 +7,6 @@
     "readme:check": "node scripts/generate-readme.mjs --check",
     "validate": "node scripts/validate.mjs",
     "test": "node --test tests/*.test.mjs",
-    "site:dev": "npm --prefix site run dev",
-    "site:build": "npm --prefix site run build",
-    "site:check": "npm --prefix site run check",
-    "check": "npm run validate && npm test && npm run readme:check && npm run site:check && npm run site:build"
+    "check": "npm run validate && npm test && npm run readme:check"
   }
 }

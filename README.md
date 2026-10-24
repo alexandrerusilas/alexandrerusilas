@@ -32,7 +32,6 @@ Building digital products, leading technology, connecting ideas to execution.
 <a href="#tecnologias"><img src="./assets/readme/nav/tecnologias.svg" alt="Tecnologias" width="149" height="48"></a>
 <a href="#github"><img src="./assets/readme/nav/github.svg" alt="GitHub" width="132" height="48"></a>
 <a href="#contato"><img src="./assets/readme/nav/contato.svg" alt="Contato" width="132" height="48"></a>
-<a href="https://alexandrerusilas.github.io/alexandrerusilas/"><img src="./assets/readme/nav/portfolio.svg" alt="Portfolio interativo" width="132" height="48"></a>
 
 <h2 id="construindo">O que estou construindo</h2>
 
@@ -109,10 +108,7 @@ Tem uma ideia interessante? Vamos conversar.
 - [LinkedIn](https://www.linkedin.com/in/alexandrerusilas)
 - [PFL.bio](https://pfl.bio/@arusilas)
 - [GitHub](https://github.com/alexandrerusilas)
-- [Portfolio interativo](https://alexandrerusilas.github.io/alexandrerusilas/)
 - [contato@painelmagico.com](mailto:contato@painelmagico.com)
-
-O portfolio interativo vive neste mesmo repositório e é publicado no GitHub Pages. O endereço passa a responder depois que o Pages é ativado em Settings.
 
 <p>Feito com curiosidade, código e café.</p>
 

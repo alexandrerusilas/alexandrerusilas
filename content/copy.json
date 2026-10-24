@@ -383,8 +383,7 @@
         "en": "Product",
         "body": "Criar tecnologia que resolva problemas reais."
       }
-    ],
-    "portfolioNote": "O portfolio interativo vive neste mesmo repositório e é publicado no GitHub Pages. O endereço passa a responder depois que o Pages é ativado em Settings."
+    ]
   },
   "ui": {
     "menu": { "pt": "Menu", "en": "Menu" },

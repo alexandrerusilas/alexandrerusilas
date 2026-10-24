@@ -151,7 +151,6 @@ function buildReadme(content) {
     ["contato", "Contato"],
   ];
   for (const [id, label] of nav) put(resolve(assetDir, "nav", `${id}.svg`), chip(label));
-  put(resolve(assetDir, "nav", "portfolio.svg"), chip("Portfolio"));
 
   for (const project of projects) {
     put(resolve(assetDir, "projects", `${project.id}-dark.svg`), projectCard(project, "dark"));
@@ -167,9 +166,6 @@ function buildReadme(content) {
 
   const navHtml = nav
     .map(([id, label]) => `<a href="#${id}"><img src="./assets/readme/nav/${id}.svg" alt="${esc(label)}" width="${Math.max(132, 28 + label.length * 11)}" height="48"></a>`)
-    .concat(
-      `<a href="${links.portfolio}"><img src="./assets/readme/nav/portfolio.svg" alt="Portfolio interativo" width="${Math.max(132, 28 + "Portfolio".length * 11)}" height="48"></a>`,
-    )
     .join("\n");
 
   const projectsHtml = projects
@@ -207,10 +203,7 @@ ${linksHtml}`;
 - [LinkedIn](${links.linkedin})
 - [PFL.bio](${links.pfl})
 - [GitHub](${links.github})
-- [Portfolio interativo](${links.portfolio})
-- [contato@painelmagico.com](mailto:${links.studioEmail})
-
-${esc(copy.readme.portfolioNote)}`;
+- [contato@painelmagico.com](mailto:${links.studioEmail})`;
 
   const footerHtml = `<p>${esc(copy.footer.line.pt)}</p>
 

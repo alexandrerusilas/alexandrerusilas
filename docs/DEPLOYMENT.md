@@ -1,10 +1,10 @@
-# Deploy e desenvolvimento
+# Atualizar o perfil
 
-Requisitos: Node.js 22.12 ou mais recente, e npm. O portfolio usa Astro 6 porque o Astro 7 exige Node 22.23.4.
+O perfil https://github.com/alexandrerusilas mostra o `README.md` da branch `main` deste repositório. Não existe build de site.
 
 ## Local
 
-Na raiz:
+Node.js 22.12 ou mais recente.
 
 ```bash
 node scripts/validate.mjs
@@ -12,49 +12,26 @@ node --test tests/*.test.mjs
 node scripts/generate-readme.mjs
 ```
 
-No portfolio:
+Para conferir sem gravar:
 
 ```bash
-cd site
-npm ci
-npm run dev
+node scripts/generate-readme.mjs --check
 ```
 
-O site abre em `http://localhost:4321/alexandrerusilas/`. O prefixo é obrigatório.
+## Publicar no perfil
 
-Outros comandos, dentro de `site/`:
+1. Altere os fatos em `content/`.
+2. Rode `node scripts/generate-readme.mjs`.
+3. Envie o `README.md` e `assets/readme/` para a branch `main`.
 
-```bash
-npm run check
-npx prettier --check .
-npm run build
-npm run preview
-```
+O GitHub passa a mostrar o arquivo assim que o commit chega em `main`. Não há workflow de publicação.
 
-O build sai em `site/dist`.
+## O que este repositório não controla
 
-## GitHub Pages
-
-1. Faça push da branch `main`.
-2. No repositório, abra Settings → Pages.
-3. Em Build and deployment, escolha Source: GitHub Actions.
-4. O workflow `CI` roda em pull requests e em pushes na `main`.
-5. O workflow `Deploy Pages` só publica depois de um `CI` bem-sucedido disparado por push na `main`. Pull request não publica.
-
-A URL esperada é https://alexandrerusilas.github.io/alexandrerusilas/
-
-Ela não responde antes desse ajuste. O link já está no README e no site.
-
-O artifact enviado é `site/dist`. Permissões do deploy: leitura do código, `pages: write` e `id-token: write`. Não há segredo no repositório.
+A coluna esquerda do perfil (bio, foto, empresa, localização e site) é a configuração da conta, em Settings → Profile. O limite da bio é 160 caracteres.
 
 ## Problemas comuns
 
-- Página sem estilo: o Pages ainda não foi ativado, ou o `base` deixou de ser `/alexandrerusilas`.
-- README diferente do conteúdo: rode o gerador e commit o `README.md` junto com `assets/readme/`.
-- `npm ci` falha: o lockfile de `site/package-lock.json` precisa estar commitado.
-- Workflow de deploy não aparece: o arquivo precisa existir em `main` pelo menos uma vez.
-- Imagem social desatualizada: edite `assets/social/og.svg` e gere de novo `site/public/og-image.png` antes do build.
-
-## CI
-
-O CI valida o JSON, roda os testes do terminal, confere se o README está sincronizado, checa tipos e formatação, faz o build e confirma o prefixo `/alexandrerusilas/` no HTML.
+- O perfil continua com o texto antigo: o README novo ainda não está em `main`, ou o navegador está com a página em cache.
+- README diferente do conteúdo: rode o gerador e envie o `README.md` junto com `assets/readme/`.
+- Uma imagem não aparece: o caminho precisa ser relativo, como `./assets/readme/hero-dark.svg`, e o arquivo precisa estar no repositório.

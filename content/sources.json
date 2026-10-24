@@ -6,7 +6,7 @@
     "The public PFL.bio profile states Technology Leader at AppTicket and founder positioning. LinkedIn confirms the role and the authorized stack. AppTicket internal architecture, infrastructure, and incidents are intentionally absent.",
     "LinkedIn also mentions a prior path at Coop and MongoDB. Coop appears only as one high-level sentence. MongoDB was left out of the stack to keep the authorized list.",
     "Studio email contato@painelmagico.com is published on painelmagico.com. No personal email is published here.",
-    "The portfolio URL is the expected GitHub Pages address. It is not assumed live until Pages is enabled."
+    "The public GitHub profile is only README.md from this repository. There is no separate profile website."
   ],
   "sources": [
     "https://github.com/alexandrerusilas",
